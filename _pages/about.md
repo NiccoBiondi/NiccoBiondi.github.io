@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Grant at <a href='https://micc.unifi.it'>Media Integration and Communication Center</a> in the <a href='https://unifi.it'>University of Florence</a>. Viale Morgagni 65, 50165, Firenze, Italy. niccolobiondi5<at>gmail.com. #TODO Motto. Etc.
+subtitle: PostDoc with Research Grant at <a href='https://micc.unifi.it'>Media Integration and Communication Center</a> in the <a href='https://unifi.it'>University of Florence</a>. Viale Morgagni 65, 50165, Firenze, Italy. niccolobiondi5<at>gmail.com. #TODO Motto. Etc.
 
 profile:
   align: right
@@ -28,8 +28,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+# **Hi, I'm Niccolò\!** 👋
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm a **Postdoctoral Researcher** at the [Media Integration and Communication Center (MICC)](http://www.micc.unifi.it/) at the University of Florence.
+
+My work is all about building smarter and more adaptable AI. I explore advanced machine learning and computer vision systems, with a keen interest in **multimodal learning** and **biomedical applications**. At the core of my research is **representation learning**—I design **backward-compatible and stationary representations** that allow large-scale AI models to be updated seamlessly and efficiently, without having to start from scratch.
+
+My research has been published in top-tier venues like **NeurIPS**, **CVPR (highlight)**, and **IEEE TPAMI**.
+
+I'm truly passionate about these topics and I'm always excited to discuss new ideas, potential collaborations, or just chat about the future of machine learning. Please feel free to get in touch\!
+
+-----
+
+✉️   [**Email**](mailto:niccolo.biondi@unifi.it)     |    ✉️   [**Personal Email**](mailto:niccolobiondi5@gmail.com) 
+💼   [**LinkedIn**](https://www.linkedin.com/in/niccolò-biondi-6904bb182/)     |     🐦   [**X (Twitter)**](hhttps://x.com/NiccoBio)
