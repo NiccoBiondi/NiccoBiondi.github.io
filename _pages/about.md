@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PostDoc with Research Grant at <a href='https://micc.unifi.it'>Media Integration and Communication Center</a> in the <a href='https://unifi.it'>University of Florence</a>. Viale Morgagni 65, 50165, Firenze, Italy. niccolobiondi5<at>gmail.com. #TODO Motto. Etc.
+subtitle:  *The great insight is born from the persistence of small updates.*
 
 profile:
   align: right
@@ -23,13 +23,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
 
-# **Hi, I'm Niccolò\!** 👋
+### **Hi, I'm Niccolò\!** 👋
 
 I'm a **Postdoctoral Researcher** at the [Media Integration and Communication Center (MICC)](http://www.micc.unifi.it/) at the University of Florence.
 

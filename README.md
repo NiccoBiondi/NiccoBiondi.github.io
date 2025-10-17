@@ -1,3 +1,10 @@
+# TODO
+
+- write projects' pages 
+- update CV
+- upload pdf papers
+
+
 # al-folio
 
 <div align="center">
