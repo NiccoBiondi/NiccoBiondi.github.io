@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button. TEST",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -58,21 +58,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -440,16 +426,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-cl2r-compatible-lifelong-learning-representations-has-been-accepted-for-publication-in-acm-transactions-on-multimedia-computing-communications-and-applications-you-can-read-the-preprint-on-arxiv-or-download-the-pdf",
+          title: 'Our paper “CL2R: Compatible Lifelong Learning Representations” has been accepted for publication in...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-stationary-representations-optimally-approximating-compatibility-and-implications-for-improved-model-replacements-has-been-accepted-for-publication-in-proceedings-of-the-ieee-cvf-conference-on-computer-vision-and-pattern-recognition-cvpr-you-can-read-the-preprint-on-arxiv",
+          title: 'Our paper “Stationary Representations: Optimally Approximating Compatibility and Implications for Improved Model Replacements”...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-successfully-defended-my-phd-thesis-at-the-university-of-florence",
+          title: 'Successfully defended my PhD thesis at the University of Florence.',
+          description: "",
+          section: "News",},{id: "news-our-paper-lambda-orthogonality-regularization-for-compatible-representation-learning-has-been-accepted-for-publication-in-the-thirty-ninth-annual-conference-on-neural-information-processing-systems-neurips2025-you-can-read-the-preprint-on-arxiv",
+          title: 'Our paper “$\lambda$-Orthogonality Regularization for Compatible Representation Learning” has been accepted for publication...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -501,7 +488,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6E%69%63%63%6F%6C%6F%62%69%6F%6E%64%69%35@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/NiccoBiondi", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -509,6 +503,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://inspirehep.net/authors/1010907", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/niccolò-biondi-6904bb182", "_blank");
         },
       },{
         id: 'social-rss',
@@ -522,14 +523,14 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=B7VHm9UAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-x',
+        title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://twitter.com/NiccoBio", "_blank");
         },
       },{
       id: 'light-theme',
