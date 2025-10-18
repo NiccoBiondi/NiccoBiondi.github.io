@@ -3,158 +3,158 @@
   contents:
     - name: Full Name
       value: Niccolò Biondi
-    - name: Profile Summary
-      value: A Postdoctoral Researcher at the University of Florence (MICC) developing advanced machine learning and computer vision systems, with applications in multimodal learning and biomedical domains. My primary research focuses on representation learning, specifically designing backward-compatible and stationary representations to enable seamless model updates in large-scale systems. My work has been published in top-tier venues including NeurIPS, CVPR (highlight), and IEEE TPAMI.
-    - name: Languages
-      value: Italian, English
-    - name: Email
-      value: niccolo.biondi@unifi.it
-    - name: Website
-      value: <a href="https://www.micc.unifi.it/people/niccolo-biondi/">https://www.micc.unifi.it/people/niccolo-biondi/</a>
-    - name: GitHub
-      value: <a href="https://github.com/NiccoBiondi">NiccoBiondi</a>
-    - name: Google Scholar
-      value: <a href="https://scholar.google.com/citations?user=B7VHm9UAAAAJ&hl=en">View Profile</a>
+    # - name: Profile Summary
+    #   value: A Postdoctoral Researcher at the University of Florence (MICC) developing advanced machine learning and computer vision systems, with applications in multimodal learning and biomedical domains. My primary research focuses on representation learning, specifically designing backward-compatible and stationary representations to enable seamless model updates in large-scale systems. My work has been published in top-tier venues including NeurIPS, CVPR (highlight), and IEEE TPAMI.
+    # - name: Languages
+    #   value: Italian, English
+    # - name: Email
+    #   value: niccolo.biondi@unifi.it
+    # - name: Website
+    #   value: <a href="https://www.micc.unifi.it/people/niccolo-biondi/">https://www.micc.unifi.it/people/niccolo-biondi/</a>
+    # - name: GitHub
+    #   value: <a href="https://github.com/NiccoBiondi">NiccoBiondi</a>
+    # - name: Google Scholar
+    #   value: <a href="https://scholar.google.com/citations?user=B7VHm9UAAAAJ&hl=en">View Profile</a>
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Postdoctoral Researcher
-      institution: MICC Lab, University of Florence, Florence, Italy
-      year: 2024 - 2025
-    - title: Ph.D. in Information Engineering (cum laude)
-      institution: University of Florence, Florence, Italy
-      year: 2021 - 2024
-      description:
-        - Thesis on "Learning Backward-Compatible Representations via Stationarity".
-        - Supervised by Prof. Alberto Del Bimbo and Prof. Federico Pernici.
-    - title: M.Sc. in Information Engineering (cum laude)
-      institution: University of Florence, Florence, Italy
-      year: 2021
-      description:
-        - Focus on machine learning, computer vision, statistics, and optimization theory.
-        - Thesis on "Incremental Learning of Compatible Representations".
-    - title: B.Sc. in Information Engineering
-      institution: University of Florence, Florence, Italy
-      year: 2018
-      description:
-        - Focus on computer science, machine learning, physics, and mathematics.
-        - Thesis on "Financial Document Recognition with Neural Network".
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: Postdoctoral Researcher
+#       institution: MICC Lab, University of Florence, Florence, Italy
+#       year: 2024 - 2025
+#     - title: Ph.D. in Information Engineering (cum laude)
+#       institution: University of Florence, Florence, Italy
+#       year: 2021 - 2024
+#       description:
+#         - Thesis on "Learning Backward-Compatible Representations via Stationarity".
+#         - Supervised by Prof. Alberto Del Bimbo and Prof. Federico Pernici.
+#     - title: M.Sc. in Information Engineering (cum laude)
+#       institution: University of Florence, Florence, Italy
+#       year: 2021
+#       description:
+#         - Focus on machine learning, computer vision, statistics, and optimization theory.
+#         - Thesis on "Incremental Learning of Compatible Representations".
+#     - title: B.Sc. in Information Engineering
+#       institution: University of Florence, Florence, Italy
+#       year: 2018
+#       description:
+#         - Focus on computer science, machine learning, physics, and mathematics.
+#         - Thesis on "Financial Document Recognition with Neural Network".
 
-- title: Research & Professional Experience
-  type: time_table
-  contents:
-    - title: Research Fellow (PNRR)
-      institution: "[Institution Name]"
-      year: 2024 - 2025
-      description:
-        - "[Details on PNRR research project to be added]"
-    - title: Principal Investigator
-      institution: CINECA ISCRA-C Grant (“CoReS”)
-      year: 2022 - 2023
-      description:
-        - Awarded competitive high-performance computing resources to lead research on Compatible Representations.
-    - title: Project Transfer
-      institution: Leonardo S.p.A.
-      year: 2022
-      description:
-        - Developed deep learning and transfer learning methods for face recognition on masked faces.
-    - title: Principal Investigator
-      institution: CINECA ISCRA-C Grant (“ILCoRe”)
-      year: 2021 - 2022
-      description:
-        - Awarded high-performance computing resources for foundational research on Compatible Representations.
-    - title: Research Fellow
-      institution: AI4Media (H2020), MICC, University of Florence
-      year: 2021
-      description:
-        - Conducted research on learning compatible representations for lifelong learning systems.
-    - title: "[Your Title: e.g., Research Collaborator]"
-      institution: "[Meyer Hospital / Details on Collaboration]"
-      year: "[Year]"
-      description:
-        - "[Details on MRI brain epilepsy project to be added]"
-        - "[Details on ultrasound-MRI project to be added]"
-        - "[Details on movement disorder project to be added]"
-    - title: "[Your Title: e.g., Research Consultant]"
-      institution: "[PIA PROJECT / Details on Collaboration]"
-      year: "[Year]"
-      description:
-        - "[Details on PIA project to be added]"
-    - title: "[Your Title: e.g., Research Consultant]"
-      institution: "[Urbino / Sammontana Collaboration]"
-      year: "[Year]"
-      description:
-        - "[Details on Urbino/Sammontana project to be added]"
+# - title: Research & Professional Experience
+#   type: time_table
+#   contents:
+#     - title: Research Fellow (PNRR)
+#       institution: "[Institution Name]"
+#       year: 2024 - 2025
+#       description:
+#         - "[Details on PNRR research project to be added]"
+#     - title: Principal Investigator
+#       institution: CINECA ISCRA-C Grant (“CoReS”)
+#       year: 2022 - 2023
+#       description:
+#         - Awarded competitive high-performance computing resources to lead research on Compatible Representations.
+#     - title: Project Transfer
+#       institution: Leonardo S.p.A.
+#       year: 2022
+#       description:
+#         - Developed deep learning and transfer learning methods for face recognition on masked faces.
+#     - title: Principal Investigator
+#       institution: CINECA ISCRA-C Grant (“ILCoRe”)
+#       year: 2021 - 2022
+#       description:
+#         - Awarded high-performance computing resources for foundational research on Compatible Representations.
+#     - title: Research Fellow
+#       institution: AI4Media (H2020), MICC, University of Florence
+#       year: 2021
+#       description:
+#         - Conducted research on learning compatible representations for lifelong learning systems.
+#     - title: "[Your Title: e.g., Research Collaborator]"
+#       institution: "[Meyer Hospital / Details on Collaboration]"
+#       year: "[Year]"
+#       description:
+#         - "[Details on MRI brain epilepsy project to be added]"
+#         - "[Details on ultrasound-MRI project to be added]"
+#         - "[Details on movement disorder project to be added]"
+#     - title: "[Your Title: e.g., Research Consultant]"
+#       institution: "[PIA PROJECT / Details on Collaboration]"
+#       year: "[Year]"
+#       description:
+#         - "[Details on PIA project to be added]"
+#     - title: "[Your Title: e.g., Research Consultant]"
+#       institution: "[Urbino / Sammontana Collaboration]"
+#       year: "[Year]"
+#       description:
+#         - "[Details on Urbino/Sammontana project to be added]"
 
-# Note: The template doesn't include a publication section, which is vital for an academic CV.
-# I've added a custom one below. You can choose to format it as you see fit.
-- title: Selected Publications
-  type: time_table
-  contents:
-    - title: "λ-Orthogonality Regularization for Compatible Representation Learning"
-      year: 2025
-      description: "In *Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)*."
-    - title: "Stationary Representations: Optimally Approximating Compatibility and Implications for Improved Model Replacements"
-      year: 2024
-      description: "In *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*. **(Highlight paper, top 2.8%)**"
-    - title: "CoReS: Compatible Representations via Stationarity"
-      year: 2023
-      description: "In *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*."
-    - title: "CL2R: Compatible Lifelong Learning Representations"
-      year: 2021
-      description: "In *ACM Transactions on Multimedia Computing, Communications, and Applications*."
+# # Note: The template doesn't include a publication section, which is vital for an academic CV.
+# # I've added a custom one below. You can choose to format it as you see fit.
+# - title: Selected Publications
+#   type: time_table
+#   contents:
+#     - title: "λ-Orthogonality Regularization for Compatible Representation Learning"
+#       year: 2025
+#       description: "In *Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)*."
+#     - title: "Stationary Representations: Optimally Approximating Compatibility and Implications for Improved Model Replacements"
+#       year: 2024
+#       description: "In *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*. **(Highlight paper, top 2.8%)**"
+#     - title: "CoReS: Compatible Representations via Stationarity"
+#       year: 2023
+#       description: "In *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*."
+#     - title: "CL2R: Compatible Lifelong Learning Representations"
+#       year: 2021
+#       description: "In *ACM Transactions on Multimedia Computing, Communications, and Applications*."
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2022
-      items:
-        - "<strong>Petrosino Prize:</strong> Best M.Sc. Thesis from the CVPL Association for 'CoReS: Compatible Representation via Stationarity'."
-        - "<strong>Best Student Paper Award:</strong> At the 21st International Conference on Image Analysis and Processing (ICIAP)."
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2022
+#       items:
+#         - "<strong>Petrosino Prize:</strong> Best M.Sc. Thesis from the CVPL Association for 'CoReS: Compatible Representation via Stationarity'."
+#         - "<strong>Best Student Paper Award:</strong> At the 21st International Conference on Image Analysis and Processing (ICIAP)."
 
-- title: Teaching & Mentoring
-  type: time_table
-  contents:
-    - title: Co-Lecturer, Computer Vision and Intelligent Media Recognition
-      institution: University of Florence
-      year: 2023 - 2025
-      description:
-        - Co-taught advanced M.Sc. class on fundamentals of deep learning and computer vision with Prof. Alberto Del Bimbo and Prof. Pietro Pala.
-    - title: Student Supervision
-      institution: University of Florence
-      year: 2021 - Present
-      description:
-        - "Mentored 1 Research Grant student and 6+ M.Sc. thesis students on topics in continual learning, visual search, and biomedical data analysis."
-        - "[Details on specific students like Marco Pagliocca, Francesco Correnti, etc., can be added here]"
+# - title: Teaching & Mentoring
+#   type: time_table
+#   contents:
+#     - title: Co-Lecturer, Computer Vision and Intelligent Media Recognition
+#       institution: University of Florence
+#       year: 2023 - 2025
+#       description:
+#         - Co-taught advanced M.Sc. class on fundamentals of deep learning and computer vision with Prof. Alberto Del Bimbo and Prof. Pietro Pala.
+#     - title: Student Supervision
+#       institution: University of Florence
+#       year: 2021 - Present
+#       description:
+#         - "Mentored 1 Research Grant student and 6+ M.Sc. thesis students on topics in continual learning, visual search, and biomedical data analysis."
+#         - "[Details on specific students like Marco Pagliocca, Francesco Correnti, etc., can be added here]"
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Representation & Continual Learning
-      items:
-        - My core focus is on developing methods for Compatible, Continual, and Lifelong Learning.
-        - I investigate stationary representations and neural collapse to build adaptable AI systems.
-    - title: Core Machine Learning & Vision
-      items:
-        - Deep Learning, Computer Vision, Metric Learning, Contrastive Learning, and Self-Supervised Learning.
-    - title: Applications & Special Topics
-      items:
-        - Multimodal Learning, Biomedical Image Segmentation, and Large-Scale Retrieval Systems.
-        - Addressing challenges in long-tail distributions and imbalanced datasets.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Representation & Continual Learning
+#       items:
+#         - My core focus is on developing methods for Compatible, Continual, and Lifelong Learning.
+#         - I investigate stationary representations and neural collapse to build adaptable AI systems.
+#     - title: Core Machine Learning & Vision
+#       items:
+#         - Deep Learning, Computer Vision, Metric Learning, Contrastive Learning, and Self-Supervised Learning.
+#     - title: Applications & Special Topics
+#       items:
+#         - Multimodal Learning, Biomedical Image Segmentation, and Large-Scale Retrieval Systems.
+#         - Addressing challenges in long-tail distributions and imbalanced datasets.
 
-- title: Technical Skills
-  type: list
-  contents:
-    - "<strong>Languages:</strong> Python, C++, MATLAB"
-    - "<strong>Frameworks:</strong> PyTorch, TensorFlow, Scikit-learn"
-    - "<strong>Tools:</strong> Git, Docker, Slurm, OpenCV, Pandas, NumPy"
+# - title: Technical Skills
+#   type: list
+#   contents:
+#     - "<strong>Languages:</strong> Python, C++, MATLAB"
+#     - "<strong>Frameworks:</strong> PyTorch, TensorFlow, Scikit-learn"
+#     - "<strong>Tools:</strong> Git, Docker, Slurm, OpenCV, Pandas, NumPy"
 
-- title: Other Activities
-  type: time_table
-  contents:
-    - title: Hackathon "AIRtificial Intelligence"
-      institution: Aeronautica Militare & Leonardo S.p.A.
-      year: 2019
-      description:
-        - Focused on investigating machine learning solutions to improve standard procedures in aeronautics.
+# - title: Other Activities
+#   type: time_table
+#   contents:
+#     - title: Hackathon "AIRtificial Intelligence"
+#       institution: Aeronautica Militare & Leonardo S.p.A.
+#       year: 2019
+#       description:
+#         - Focused on investigating machine learning solutions to improve standard procedures in aeronautics.

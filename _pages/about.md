@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle:  *The great insight is born from the persistence of small updates.*
+# subtitle:  <em>The great insight is born from the persistence of small updates.</em>
+subtitle:  The great insight is born from the persistence of small updates.
 
 profile:
   align: right
