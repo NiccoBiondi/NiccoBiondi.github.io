@@ -95,29 +95,6 @@
       "highlights": []
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Academic Conferences & Journals",
-      "location": "",
-      "position": "Peer Reviewer",
-      "url": "",
-      "startDate": "2021-01-01",
-      "endDate": "Present",
-      "summary": "Active reviewer for top-tier computer vision and machine learning venues.",
-      "highlights": [
-        "NeurIPS (2025, 2022)",
-        "ICCV (2025)",
-        "CVPR (2025, 2024, 2022)",
-        "ECCV (2024, 2022)",
-        "ACMMM (2025)",
-        "ICME (2024)",
-        "ICPR (2022)",
-        "IEEE TPAMI",
-        "IEEE TNNLS",
-        "IEEE TMM"
-      ]
-    }
-  ],
   "education": [
     {
       "institution": "University of Florence",
@@ -175,43 +152,6 @@
       "date": "2022-05-23",
       "awarder": "21st International Conference on Image Analysis and Processing (ICIAP)",
       "summary": "Awarded for the paper 'Contrastive Supervised Distillation for Continual Representation Learning'."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "6th Advanced Course on Data Science & Machine Learning (ACDL 2023)",
-      "date": "2023-06-01",
-      "issuer": "ACDL",
-      "url": "",
-      "icon": ""
-    },
-    {
-      "name": "International Computer Vision Summer School (ICVSS 2022)",
-      "date": "2022-07-01",
-      "issuer": "ICVSS",
-      "url": "",
-      "icon": ""
-    },
-    {
-      "name": "Machine Learning Summer School (MLNN 2022)",
-      "date": "2022-06-01",
-      "issuer": "MLNN",
-      "url": "",
-      "icon": ""
-    },
-    {
-      "name": "High Performance Deep Learning with GPU",
-      "date": "2022-06-01",
-      "issuer": "NVIDIA",
-      "url": "",
-      "icon": ""
-    },
-    {
-      "name": "Advanced School on Parallel Computing",
-      "date": "2021-03-01",
-      "issuer": "CINECA",
-      "url": "",
-      "icon": ""
     }
   ],
   "publications": [
@@ -332,11 +272,12 @@
       "icon": "fa-solid fa-lightbulb",
       "keywords": [
         "Representation Learning",
-        "Continual/Lifelong Learning",
         "Compatible Learning",
         "Multimodal Learning",
         "Metric Learning",
-        "Self-Supervised Learning"
+        "Continual/Lifelong Learning",
+        "Self-Supervised Learning",
+        "Neural Collapse"
       ]
     },
     {
@@ -347,13 +288,11 @@
         "Biomedical Segmentation",
         "Retrieval Systems",
         "Face Recognition",
-        "Neural Collapse",
         "Long-tail datasets",
         "Imbalanced datasets"
       ]
     }
   ],
-  "references": [],
   "projects": [
     {
       "name": "Invited Tutorials on Backward-Compatible Representations",
