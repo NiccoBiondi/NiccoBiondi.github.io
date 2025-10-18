@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Curriculum Vitae of Niccolò Biondi",
+          description: "For a more detailed and updated version of my CV, please download the PDF. For any inquiries, feel free to reach out via email.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
