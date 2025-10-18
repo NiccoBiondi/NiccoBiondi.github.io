@@ -13,7 +13,7 @@ profile:
     Media Integration and Communication Center (MICC)<br>
     University of Florence<br>
     Viale Morgagni 65, 50165, Firenze, Italy<br>
-    niccolobiondi5<at>gmail.com
+    niccolobiondi5--at--gmail.com
     
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
