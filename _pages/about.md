@@ -40,7 +40,6 @@ My research has been published in top-tier venues like **NeurIPS**, **CVPR (high
 
 I'm truly passionate about these topics and I'm always excited to discuss new ideas, potential collaborations, or just chat about the future of machine learning. Please feel free to get in touch\!
 
------
 
 ✉️   [**Email**](mailto:niccolo.biondi@unifi.it)     |    ✉️   [**Personal Email**](mailto:niccolobiondi5@gmail.com) 
 💼   [**LinkedIn**](https://www.linkedin.com/in/niccolò-biondi-6904bb182/)     |     🐦   [**X (Twitter)**](hhttps://x.com/NiccoBio)
