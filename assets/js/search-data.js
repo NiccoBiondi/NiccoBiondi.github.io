@@ -398,6 +398,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-mitigating-negative-flips-via-margin-preserving-training-has-been-accepted-at-aaai-2026",
           title: 'Our paper “Mitigating Negative Flips via Margin Preserving Training” has been accepted at...',
           description: "",
+          section: "News",},{id: "news-our-paper-pepr-privileged-event-based-predictive-regularization-for-domain-generalization-has-been-accepted-to-cvpr-2026-as-a-findings-paper-read-the-preprint-on-arxiv-or-visit-the-project-page",
+          title: 'Our paper “PEPR: Privileged Event-based Predictive Regularization for Domain Generalization” has been accepted...',
+          description: "",
           section: "News",},{id: "news-our-paper-a-stationary-and-therefore-compatible-representation-is-all-you-need-has-been-accepted-at-ieee-tpami",
           title: 'Our paper “A Stationary (and Therefore Compatible) Representation is All You Need” has...',
           description: "",
@@ -449,6 +452,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-pepr-privileged-event-based-predictive-regularization-for-domain-generalization",
+          title: 'PEPR: Privileged Event-based Predictive Regularization for Domain Generalization',
+          description: "CVPR 2026 Findings",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pepr/";
             },},{id: "projects-a-stationary-and-therefore-compatible-representation-is-all-you-need",
           title: 'A Stationary (and Therefore Compatible) Representation is All You Need',
           description: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024",
