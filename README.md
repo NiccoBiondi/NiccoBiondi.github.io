@@ -1,3 +1,12 @@
+# TODO to see updates
+
+``` bash
+git add -A
+git commit -m " ... "
+git push origin main
+```
+
+
 # al-folio
 
 <div align="center">

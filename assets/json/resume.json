@@ -1,157 +1,165 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Niccolò Biondi",
+    "label": "Assistant Professor",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "niccolo.biondi@unitn.it",
+    "phone": "+39 342 8393246",
+    "url": "https://NiccoBiondi.github.io",
+    "summary": "An Assistant Professor at the University of Trento (MHUG lab) developing advanced machine learning and computer vision systems, with applications in multimodal learning and biomedical domains. My primary research focuses on representation learning, specifically designing backward-compatible and stationary representations to enable seamless model updates in large-scale systems. My work has been published in top-tier venues including NeurIPS, CVPR (highlight), and IEEE TPAMI.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Via Sommarive, 9",
+      "postalCode": "38123",
+      "city": "Povo, Trento",
+      "countryCode": "IT",
+      "region": "Trentino"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "NiccoBiondi",
+        "url": "https://github.com/NiccoBiondi"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Multimedia & Human Understanding Lab (MHUG), University of Trento",
+      "position": "Assistant Professor (RTD-A)",
+      "url": "https://mhug.disi.unitn.it/",
+      "startDate": "2025-01-01",
+      "summary": "Developing advanced machine learning and computer vision systems with applications in multimodal learning and biomedical domains. Research focuses on backward-compatible and stationary representation learning."
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "MICC Lab, University of Florence",
+      "position": "Post-Doctoral Researcher",
+      "url": "https://www.micc.unifi.it/",
+      "startDate": "2024-01-01",
+      "endDate": "2025-01-01",
+      "summary": "Post-doctoral research on backward-compatible representation learning and model updates."
+    },
+    {
+      "name": "Leonardo SPA",
+      "position": "Research Collaborator",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "summary": "Face recognition on masked faces using advanced deep learning and transfer learning techniques."
+    },
+    {
+      "name": "MICC Lab, University of Florence — European Commission (AI4Media, Horizon 2020 #951911)",
+      "position": "Research Fellow",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
+      "summary": "Research on multimedia AI under the AI4Media European project."
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Florence",
+      "location": "Florence, Italy",
+      "url": "https://www.unifi.it/",
+      "area": "Information Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2021-01-01",
+      "endDate": "2024-01-01",
+      "score": "cum laude",
+      "courses": [
+        "Thesis: Learning Backward-Compatible Representations via Stationarity",
+        "Supervisors: Prof. Alberto Del Bimbo and Federico Pernici"
+      ]
+    },
+    {
+      "institution": "University of Florence",
+      "location": "Florence, Italy",
+      "url": "https://www.unifi.it/",
+      "area": "Information Engineering",
+      "studyType": "M.Sc.",
+      "startDate": "2018-01-01",
+      "endDate": "2021-01-01",
+      "score": "cum laude",
+      "courses": [
+        "Thesis: Incremental Learning of Compatible Representations",
+        "Focus: Machine Learning, Computer Vision, Statistics and Optimization Theory"
+      ]
+    },
+    {
+      "institution": "University of Florence",
+      "location": "Florence, Italy",
+      "url": "https://www.unifi.it/",
+      "area": "Information Engineering",
+      "studyType": "B.Sc.",
+      "startDate": "2015-01-01",
+      "endDate": "2018-01-01",
+      "courses": [
+        "Thesis: Financial Document Recognition with Neural Network",
+        "Focus: Computer Science, Machine Learning, Physics and Mathematics"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "CINECA ISCRA-C Award — MGRES (HP10CKYJ61)",
+      "date": "2026-01-01",
+      "awarder": "CINECA under the ISCRA initiative",
+      "summary": "HPC resources awarded to pursue further research on Compatible Representations. Role: External Supervisor, PI."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Best Student Paper Award",
+      "date": "2022-05-01",
+      "awarder": "21st International Conference on Image Analysis and Processing (ICIAP 2022)",
+      "url": "https://dl.acm.org/doi/10.1007/978-3-031-06427-2_50",
+      "summary": "Awarded for 'Contrastive Supervised Distillation for Continual Representation Learning' (Oral presentation)."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "Petrosino Prize — Best M.Sc. Thesis",
+      "date": "2022-10-01",
+      "awarder": "CVPL Association",
+      "summary": "Best M.Sc. Thesis of the CVPL Association for 'CoReS: Compatible Representation via Stationary'."
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "title": "CINECA ISCRA-C Award — CoReS (HP10C4TIIM)",
+      "date": "2022-01-01",
+      "awarder": "CINECA under the ISCRA initiative",
+      "summary": "HPC resources awarded to pursue further research on Compatible Representations. Role: External Supervisor, PI."
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "title": "CINECA ISCRA-C Award — ILCoRe (HP10CRMI87)",
+      "date": "2021-01-01",
+      "awarder": "CINECA under the ISCRA initiative",
+      "summary": "HPC resources awarded to pursue research on Compatible Representations."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Machine Learning & Computer Vision",
+      "level": "Expert",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Representation Learning",
+        "Backward-Compatible Learning",
+        "Continual Learning",
+        "Self-Supervised Learning",
+        "Multimodal Learning",
+        "Vision Transformers"
+      ]
+    },
+    {
+      "name": "Programming & Frameworks",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "NumPy",
+        "OpenCV",
+        "CUDA",
+        "HPC / SLURM"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Italian",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,38 +171,17 @@
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Research",
+      "icon": "fa-solid fa-magnifying-glass",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Representation Learning",
+        "Backward Compatibility",
+        "Continual Learning",
+        "Computer Vision",
+        "Biomedical AI"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "references": [],
+  "projects": []
 }
