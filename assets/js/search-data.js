@@ -111,17 +111,6 @@ ninja.data = [{
             window.location.href = "/blog/2024/code-diff/";
           
         },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
       },{id: "post-a-post-with-vega-lite",
         
           title: "a post with vega lite",
@@ -391,7 +380,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-cl2r-compatible-lifelong-learning-representations-has-been-accepted-for-publication-in-acm-transactions-on-multimedia-computing-communications-and-applications-you-can-read-the-preprint-on-arxiv-or-download-the-pdf",
+            },},{id: "news-our-paper-cl2r-compatible-lifelong-learning-representations-has-been-accepted-for-publication-in-acm-transactions-on-multimedia-computing-communications-and-applications-you-can-read-the-preprint-on-arxiv",
           title: 'Our paper “CL2R: Compatible Lifelong Learning Representations” has been accepted for publication in...',
           description: "",
           section: "News",},{id: "news-our-paper-stationary-representations-optimally-approximating-compatibility-and-implications-for-improved-model-replacements-has-been-accepted-for-publication-in-proceedings-of-the-ieee-cvf-conference-on-computer-vision-and-pattern-recognition-cvpr-you-can-read-the-preprint-on-arxiv",
@@ -460,6 +449,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-a-stationary-and-therefore-compatible-representation-is-all-you-need",
+          title: 'A Stationary (and Therefore Compatible) Representation is All You Need',
+          description: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/stationary-tpami/";
             },},{
         id: 'social-email',
         title: 'email',
