@@ -190,10 +190,7 @@ _styles: >
 <!-- ===================== TEASER ===================== -->
 <div class="row justify-content-center mb-4">
   <div class="col-md-10">
-    <div class="img-placeholder">
-      <!-- Place teaser figure here: assets/img/projects/stationary_tpami/teaser.png -->
-      🖼 &ensp; Teaser figure — e.g., Fig. 2 from the paper (compatibility concept illustration)
-    </div>
+    {% include figure.liquid loading="eager" path="assets/img/projects/stationary_tpami/teaser.png" class="img-fluid rounded z-depth-1" %}
     <div class="caption mt-2" style="text-align:center; font-size:0.85rem; color:var(--global-text-color-light);">
       When a model is updated, features learned with a d-Simplex fixed classifier stay
       <em>stationary</em> — new query features remain directly comparable to old gallery
@@ -321,10 +318,7 @@ _styles: >
     </div>
   </div>
   <div class="col-md-6">
-    <div class="img-placeholder" style="height:220px; display:flex; align-items:center; justify-content:center; flex-direction:column;">
-      <!-- Place Fig. 1 from the paper here: assets/img/projects/stationary_tpami/caps_illustration.png -->
-      🖼 &ensp; Fig. 1 — Hyperspherical caps before/after update
-    </div>
+    {% include figure.liquid loading="eager" path="assets/img/projects/stationary_tpami/caps_illustration.png" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
 
@@ -397,12 +391,7 @@ _styles: >
 
 <div class="row mt-3">
   <div class="col-md-10 offset-md-1">
-    <div class="img-placeholder" style="height:200px; display:flex; align-items:center; justify-content:center; flex-direction:column;">
-      <!-- Place Fig. 4 (Compatibility Matrices for 7 tasks) here:
-           assets/img/projects/stationary_tpami/compatibility_matrices.png -->
-      🖼 &ensp; Fig. 4 — Compatibility Matrices (CIFAR100/10, 7 tasks):
-      d-Simplex-HOC achieves most green entries and highest cross-test accuracy
-    </div>
+    {% include figure.liquid loading="eager" path="assets/img/projects/stationary_tpami/compatibility_matrices.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Compatibility Matrices (CIFAR100/10, 7 tasks). Entries not satisfying compatibility are highlighted in red. d-Simplex-HOC achieves the most compatible entries and highest cross-test accuracy." %}
   </div>
 </div>
 
@@ -443,12 +432,7 @@ _styles: >
 
 <div class="row mt-3">
   <div class="col-md-10 offset-md-1">
-    <div class="img-placeholder" style="height:200px; display:flex; align-items:center; justify-content:center; flex-direction:column;">
-      <!-- Place Fig. 6 (AAτ curves for IAM-CL2R) here:
-           assets/img/projects/stationary_tpami/iam_curves.png -->
-      🖼 &ensp; Fig. 6 — AAτ for 31 tasks with model replacements:
-      only d-Simplex-HOC and d-Simplex-FD improve after each replacement
-    </div>
+    {% include figure.liquid loading="eager" path="assets/img/projects/stationary_tpami/iam_curves.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Average Accuracy up to task τ (AAτ) for CIFAR100R/10 with 31 tasks and two model replacements (boxed indices). Only d-Simplex-HOC and d-Simplex-FD improve after each replacement; all other methods degrade." %}
   </div>
 </div>
 
@@ -460,7 +444,7 @@ _styles: >
   title   = {A Stationary (and Therefore Compatible) Representation is All You Need},
   author  = {Biondi, Niccolò and Pernici, Federico and Ricci, Simone and Del Bimbo, Alberto},
   journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year    = {2024},
+  year    = {2026},
   html    = {https://www.computer.org/csdl/journal/tp/5555/01/11515089/2gpcsTtMN3i}
 }</div>
 <button class="copy-btn" onclick="copyBib()">Copy</button>
