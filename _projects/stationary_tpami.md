@@ -148,15 +148,6 @@ _styles: >
     transition: background 0.15s, color 0.15s;
   }
   .copy-btn:hover { background: var(--global-theme-color); color: #fff; }
-  .img-placeholder {
-    background: var(--global-card-bg-color);
-    border: 2px dashed var(--global-divider-color);
-    border-radius: 8px;
-    padding: 3rem 1rem;
-    text-align: center;
-    color: var(--global-text-color-light);
-    font-size: 0.9rem;
-  }
   .formula-box {
     background: var(--global-card-bg-color);
     border-radius: 8px;
@@ -342,15 +333,6 @@ _styles: >
   subject to the compatibility constraints of Definition 1.
 </p>
 
-<div class="row mt-3">
-  <div class="col-md-8 offset-md-2">
-    <div class="img-placeholder" style="height:180px; display:flex; align-items:center; justify-content:center; flex-direction:column;">
-      <!-- Place Fig. 3 (training curves SCE vs HOC) here: assets/img/projects/stationary_tpami/training_curves.png -->
-      🖼 &ensp; Fig. 3 — Training loss: SCE quickly saturates; HOC converges slowly,
-      learning more information per update
-    </div>
-  </div>
-</div>
 
 <!-- ===================== RESULTS ===================== -->
 <div class="section-title">Results</div>
