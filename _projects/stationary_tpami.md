@@ -78,28 +78,35 @@ _styles: >
     margin-right: 0.5rem;
     vertical-align: middle;
   }
-  .contribution-list { list-style: none; padding: 0; margin: 0; }
-  .contribution-list li {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    align-items: flex-start;
+  .contrib-card {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    padding: 1.2rem 1.4rem;
+    height: 100%;
+    transition: box-shadow 0.2s;
   }
-  .contrib-num {
-    flex-shrink: 0;
-    width: 1.8rem;
-    height: 1.8rem;
+  .contrib-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.07); }
+  .contrib-card-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.7rem;
+    height: 1.7rem;
     background: var(--global-theme-color);
     color: #fff;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     font-weight: 700;
-    margin-top: 0.15rem;
+    margin-bottom: 0.6rem;
   }
-  .contrib-text strong { color: var(--global-theme-color); }
+  .contrib-card h6 {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--global-theme-color);
+    margin-bottom: 0.4rem;
+  }
+  .contrib-card p { font-size: 0.88rem; line-height: 1.6; margin: 0; }
   .method-box {
     background: var(--global-card-bg-color);
     border-left: 4px solid var(--global-theme-color);
@@ -245,48 +252,44 @@ _styles: >
 <!-- ===================== KEY CONTRIBUTIONS ===================== -->
 <div class="section-title">Key Contributions</div>
 
-<ul class="contribution-list">
-  <li>
-    <div class="contrib-num">1</div>
-    <div class="contrib-text">
-      <strong>Stationarity → Compatibility (Theorem 1).</strong>
-      We prove — for the first time and without approximation — that d-Simplex fixed classifiers
-      satisfy <em>both</em> compatibility inequalities (Eq. 1a &amp; 1b) in expectation.
-      Prior work only verified the same-class condition; we resolve the different-class case by
-      modelling features as hyperspherical caps and using cosine distance.
+<div class="row g-3">
+  <div class="col-md-6">
+    <div class="contrib-card">
+      <div class="contrib-card-num">1</div>
+      <h6>Stationarity → Compatibility (Theorem 1)</h6>
+      <p>First proof — without approximation — that d-Simplex fixed classifiers satisfy
+      <em>both</em> compatibility inequalities in expectation. Prior work only verified the
+      same-class case; we close the gap using cosine distance in hyperspherical space.</p>
     </div>
-  </li>
-  <li>
-    <div class="contrib-num">2</div>
-    <div class="contrib-text">
-      <strong>Higher-Order Compatibility (HOC) Loss.</strong>
-      Cross-entropy alone aligns only first-order statistics between updates.
-      We introduce <em>ℒ</em><sub>HOC</sub> = λ·ℒ<sub>SCE</sub> + (1−λ)·ℒ<sub>iNCE</sub>,
-      which captures higher-order dependencies via a contrastive objective and is
-      provably equivalent to optimising cross-entropy under the compatibility constraints
-      (Proposition 1).
+  </div>
+  <div class="col-md-6">
+    <div class="contrib-card">
+      <div class="contrib-card-num">2</div>
+      <h6>Higher-Order Compatibility (HOC) Loss</h6>
+      <p>ℒ<sub>HOC</sub> = λ·ℒ<sub>SCE</sub> + (1−λ)·ℒ<sub>iNCE</sub> captures
+      higher-order representation dependencies between updates and is provably equivalent
+      to optimising cross-entropy under the compatibility constraints (Proposition 1).</p>
     </div>
-  </li>
-  <li>
-    <div class="contrib-num">3</div>
-    <div class="contrib-text">
-      <strong>New IAM-CL²R Benchmark.</strong>
-      We introduce the <em>Improved Asynchronous Model Compatible Lifelong Learning
-      Representation</em> (IAM-CL²R, "I am clear") scenario, where a fine-tuned model is
-      occasionally replaced by a stronger one — possibly with a different architecture.
-      The d-Simplex's fixed classifier matrix acts as a common interface across replacements.
+  </div>
+  <div class="col-md-6">
+    <div class="contrib-card">
+      <div class="contrib-card-num">3</div>
+      <h6>New IAM-CL²R Benchmark</h6>
+      <p>A realistic scenario where a fine-tuned model is periodically replaced by a
+      stronger one — even a different architecture. The d-Simplex classifier matrix acts
+      as a common interface, enabling seamless replacement without re-indexing.</p>
     </div>
-  </li>
-  <li>
-    <div class="contrib-num">4</div>
-    <div class="contrib-text">
-      <strong>State-of-the-Art Results.</strong>
-      d-Simplex-HOC outperforms 7 baselines on CIFAR100, TinyImageNet, CUB, and CelebA,
-      with especially large margins at 31 tasks and after model replacements — the only
-      method that maintains high compatibility through architecture changes.
+  </div>
+  <div class="col-md-6">
+    <div class="contrib-card">
+      <div class="contrib-card-num">4</div>
+      <h6>State-of-the-Art Results</h6>
+      <p>Outperforms 7 baselines on CIFAR100, TinyImageNet, CUB, and CelebA — the only
+      method that maintains high compatibility through architecture changes across
+      31-task sequences and model replacements.</p>
     </div>
-  </li>
-</ul>
+  </div>
+</div>
 
 <!-- ===================== METHOD ===================== -->
 <div class="section-title">Method</div>
