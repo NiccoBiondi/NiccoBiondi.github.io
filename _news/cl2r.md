@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "CL2R: Compatible Lifelong Learning Representations" has been accepted for publication in *ACM Transactions on Multimedia Computing, Communications and Applications*. You can read the preprint on [arXiv](https://arxiv.org/abs/xxxx.xxxxx) or download the [PDF](link_to_pdf).
+Our paper "CL2R: Compatible Lifelong Learning Representations" has been accepted for publication in *ACM Transactions on Multimedia Computing, Communications and Applications*. You can read the preprint on [arXiv](https://arxiv.org/abs/2211.09032).
