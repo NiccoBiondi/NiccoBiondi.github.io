@@ -459,7 +459,7 @@ ninja.data = [{
               window.location.href = "/projects/pepr/";
             },},{id: "projects-a-stationary-and-therefore-compatible-representation-is-all-you-need",
           title: 'A Stationary (and Therefore Compatible) Representation is All You Need',
-          description: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024",
+          description: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026",
           section: "Projects",handler: () => {
               window.location.href = "/projects/stationary-tpami/";
             },},{
