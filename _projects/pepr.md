@@ -181,9 +181,7 @@ _styles: >
 <!-- ===================== TEASER ===================== -->
 <div class="row justify-content-center mb-4">
   <div class="col-md-10">
-    <div class="img-placeholder">
-      🖼 &ensp; Add teaser figure → <code>assets/img/projects/pepr/teaser.png</code>
-    </div>
+    <img src="/assets/img/projects/pepr/teaser.png" alt="PEPR teaser" style="width:100%; border-radius:8px;" />
     <div class="caption mt-2" style="text-align:center; font-size:0.85rem; color:var(--global-text-color-light);">
       PEPR trains an RGB encoder to <em>predict</em> event-derived latent representations,
       transferring domain robustness to a model that requires only RGB at test time.
@@ -288,10 +286,31 @@ _styles: >
   requiring the two modalities to share the same feature space.
 </div>
 
+<h5 style="margin-top:2rem; margin-bottom:0.8rem; font-weight:700;">Patch Selection Mechanism</h5>
+
+<p>
+  A core challenge in cross-modal predictive learning is that event cameras produce
+  <em>sparse</em> outputs: most of the spatial grid carries no signal at any given moment.
+  Supervising every RGB patch against an empty event target would flood the predictor
+  with uninformative gradients and destabilize training.
+</p>
+<p>
+  PEPR addresses this with a <strong>patch selection mechanism</strong>: only the spatial
+  patches where the event stream is active — i.e., where events actually fired — are
+  selected as prediction targets for the RGB encoder. Concretely, the event representation
+  is divided into non-overlapping patches and those with sufficient event density are
+  retained. The predictor then aligns the corresponding RGB patches only at those locations,
+  concentrating the supervision signal where the event modality is informative.
+  This selective alignment makes the training loss meaningful and prevents the RGB encoder
+  from being pulled toward trivial or noisy targets.
+</p>
+
 <div class="row justify-content-center mt-3">
   <div class="col-md-10">
-    <div class="img-placeholder">
-      🖼 &ensp; Add method figure → <code>assets/img/projects/pepr/method.png</code>
+    <img src="/assets/img/projects/pepr/patch_selection.png" alt="PEPR patch selection mechanism" style="width:100%; border-radius:8px;" />
+    <div class="caption mt-2" style="text-align:center; font-size:0.85rem; color:var(--global-text-color-light);">
+      Patch selection: only spatially active event patches (highlighted) are used as
+      prediction targets, focusing supervision where the event signal is informative.
     </div>
   </div>
 </div>
@@ -302,13 +321,34 @@ _styles: >
 <p>
   PEPR is evaluated on three benchmarks spanning semantic segmentation and object detection
   under domain shift, using the FRED, DSEC, Hard-DSEC-DET, Cityscapes, and Cityscapes
-  Adverse datasets.
+  Adverse datasets. A selection of key results is shown below;
+  <strong>many additional experiments and ablations are reported in the
+  <a href="https://arxiv.org/pdf/2602.04583">full CVPR 2026 Findings paper</a></strong>.
 </p>
 
 <div class="row justify-content-center mt-3">
   <div class="col-md-10">
-    <div class="img-placeholder">
-      🖼 &ensp; Add results figure → <code>assets/img/projects/pepr/results.png</code>
+    <img src="/assets/img/projects/pepr/segmentation.png" alt="PEPR segmentation results" style="width:100%; border-radius:8px;" />
+    <div class="caption mt-2" style="text-align:center; font-size:0.85rem; color:var(--global-text-color-light);">
+      Semantic segmentation results under domain shift.
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-center mt-4">
+  <div class="col-md-10">
+    <img src="/assets/img/projects/pepr/fred.png" alt="PEPR FRED dataset results" style="width:100%; border-radius:8px;" />
+    <div class="caption mt-2" style="text-align:center; font-size:0.85rem; color:var(--global-text-color-light);">
+      Results on the FRED benchmark.
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-center mt-4">
+  <div class="col-md-10">
+    <img src="/assets/img/projects/pepr/harddsec.png" alt="PEPR Hard-DSEC-DET results" style="width:100%; border-radius:8px;" />
+    <div class="caption mt-2" style="text-align:center; font-size:0.85rem; color:var(--global-text-color-light);">
+      Object detection results on the Hard-DSEC-DET benchmark.
     </div>
   </div>
 </div>

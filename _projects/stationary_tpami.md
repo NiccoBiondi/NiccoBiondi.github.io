@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "A Stationary (and Therefore Compatible) Representation is All You Need"
-description: IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024
+description: IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026
 img: assets/img/projects/stationary_tpami/teaser.png
 importance: 1
 category: research
