@@ -317,14 +317,14 @@ _styles: >
 <div class="section-title">Citation</div>
 
 <div style="position:relative;">
-<div class="citation-block" id="citation-block">@inproceedings{magrini2026pepr,
-  title   = {PEPR: Privileged Event-based Predictive Regularization for Domain Generalization},
-  author  = {Magrini, Gabriele and Becattini, Federico and Biondi, Niccolò and Pala, Pietro},
+<pre class="citation-block" id="citation-block">@inproceedings{magrini2026pepr,
+  title     = {PEPR: Privileged Event-based Predictive Regularization for Domain Generalization},
+  author    = {Magrini, Gabriele and Becattini, Federico and Biondi, Niccolò and Pala, Pietro},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  note    = {Findings},
-  year    = {2026},
-  arxiv   = {2602.04583}
-}</div>
+  note      = {Findings},
+  year      = {2026},
+  arxiv     = {2602.04583}
+}</pre>
 <button class="copy-btn" onclick="copyBib()">Copy</button>
 </div>
 

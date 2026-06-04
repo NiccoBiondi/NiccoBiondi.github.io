@@ -305,11 +305,6 @@ _styles: >
       each class's hyperspherical cap shares the same central axis before and after fine-tuning,
       only shrinking as the model improves (Theorem 1).
     </p>
-    <div class="method-box">
-      <strong>Key insight:</strong> Cosine distance between stationary features from two different
-      model versions satisfies the compatibility definition in expectation — no alignment loss or
-      post-hoc transformation needed.
-    </div>
   </div>
   <div class="col-md-6">
     {% include figure.liquid loading="eager" path="assets/img/projects/stationary_tpami/caps_illustration.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -324,9 +319,7 @@ _styles: >
   We address this with the <strong>Higher-Order Compatibility (HOC) loss</strong>:
 </p>
 
-<div class="formula-box">
-  ℒ<sub>HOC</sub>(φ<sub>t</sub>) = λ · ℒ<sub>SCE</sub>(φ<sub>t</sub>) + (1 − λ) · ℒ<sub>iNCE</sub>(φ<sub>t</sub>, φ<sub>t−1</sub>)
-</div>
+{% include figure.liquid loading="eager" path="assets/img/projects/stationary_tpami/hoc.png" class="img-fluid" %}
 
 <p>
   The contrastive term ℒ<sub>iNCE</sub> approximates the KL divergence between the joint and
@@ -340,39 +333,9 @@ _styles: >
 <!-- ===================== RESULTS ===================== -->
 <div class="section-title">Results</div>
 
-<h5 style="font-weight:600; margin-bottom:0.8rem;">CL²R Scenario — CIFAR100/10, 31 tasks</h5>
-<p style="font-size:0.9rem; color:var(--global-text-color-light); margin-bottom:0.8rem;">
-  AC = Average Compatibility (higher = more compatible updates).
-  AA = Average Accuracy.
-  ACA = Average Compatibility Accuracy (accuracy only when compatibility is met).
-</p>
+<h5 style="font-weight:600; margin-bottom:0.8rem;">CL²R Scenario — CIFAR100/10</h5>
 
-<div class="results-highlight">
-  <table>
-    <thead>
-      <tr>
-        <th class="method-col">Method</th>
-        <th>AC ↑</th>
-        <th>AA ↑</th>
-        <th>ACA ↑</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td class="method-col">ER baseline</td><td>0.02</td><td>40.78</td><td>0.93</td></tr>
-      <tr><td class="method-col">FAN</td><td>0.07</td><td>43.12</td><td>3.42</td></tr>
-      <tr><td class="method-col">BCT-ER</td><td>0.01</td><td>41.96</td><td>0.40</td></tr>
-      <tr><td class="method-col">LCE-ER</td><td>0.14</td><td>38.45</td><td>5.93</td></tr>
-      <tr><td class="method-col">CVS</td><td>0.07</td><td>46.33</td><td>2.93</td></tr>
-      <tr><td class="method-col">d-Simplex-FD</td><td>0.34</td><td>44.82</td><td>15.37</td></tr>
-      <tr>
-        <td class="method-col ours">d-Simplex-HOC (ours)</td>
-        <td class="ours">0.49</td>
-        <td class="ours">47.34</td>
-        <td class="ours">23.44</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+{% include figure.liquid loading="eager" path="assets/img/projects/stationary_tpami/tab_cl2r.png" class="img-fluid rounded z-depth-1" %}
 
 <div class="row mt-3">
   <div class="col-md-10 offset-md-1">
@@ -387,33 +350,11 @@ _styles: >
   Only d-Simplex-based methods benefit from replacements — all others degrade.
 </p>
 
-<div class="results-highlight">
-  <table>
-    <thead>
-      <tr>
-        <th class="method-col">Method</th>
-        <th colspan="2">7 tasks + 2 replacements</th>
-        <th colspan="2">31 tasks + 2 replacements</th>
-      </tr>
-      <tr>
-        <th class="method-col"></th>
-        <th>AC ↑</th><th>AA ↑</th>
-        <th>AC ↑</th><th>AA ↑</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td class="method-col">ER / FAN / BCT-ER / CVS</td><td>0.00</td><td>~36</td><td>&lt;0.01</td><td>~31</td></tr>
-      <tr><td class="method-col">d-Simplex-FD</td><td>0.05</td><td>56.58</td><td>0.21</td><td>56.27</td></tr>
-      <tr>
-        <td class="method-col ours">d-Simplex-HOC (ours)</td>
-        <td class="ours">0.95</td>
-        <td class="ours">68.13</td>
-        <td class="ours">0.65</td>
-        <td class="ours">67.40</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+{% include figure.liquid loading="eager" path="assets/img/projects/stationary_tpami/tab_iamcl2r.png" class="img-fluid rounded z-depth-1" %}
+
+<p style="font-size:0.9rem; color:var(--global-text-color-light); margin-top:0.8rem;">
+  Results shown on CIFAR100/10 with 7 and 31 tasks. Extended experiments on TinyImageNet, CUB, and CelebA are reported in the <a href="https://www.computer.org/csdl/journal/tp/5555/01/11515089/2gpcsTtMN3i">full paper</a>.
+</p>
 
 <div class="row mt-3">
   <div class="col-md-10 offset-md-1">
@@ -425,13 +366,13 @@ _styles: >
 <div class="section-title">Citation</div>
 
 <div style="position:relative;">
-<div class="citation-block" id="citation-block">@article{biondi2024stationary_journal,
+<pre class="citation-block" id="citation-block">@article{biondi2024stationary_journal,
   title   = {A Stationary (and Therefore Compatible) Representation is All You Need},
   author  = {Biondi, Niccolò and Pernici, Federico and Ricci, Simone and Del Bimbo, Alberto},
   journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year    = {2026},
   html    = {https://www.computer.org/csdl/journal/tp/5555/01/11515089/2gpcsTtMN3i}
-}</div>
+}</pre>
 <button class="copy-btn" onclick="copyBib()">Copy</button>
 </div>
 
