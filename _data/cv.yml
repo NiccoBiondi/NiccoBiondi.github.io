@@ -52,24 +52,23 @@
       institution: European Commission / MICC Lab, University of Florence
       year: 2021
 
-- title: Honors & Awards
+- title: Research Funding
   type: time_table
   contents:
+    - title: "MINGLE — Horizon Europe"
+      institution: University of Trento (MHUG lab)
+      year: Feb 2027 – now
+    - title: "ELLIOT — European Lighthouse on Foundation Models"
+      institution: University of Trento (MHUG lab)
+      year: 2025 – now
+    - title: "AI4Media — Horizon 2020, grant no. 951911"
+      institution: MICC, University of Florence
+      year: 2020 – 2024
     - title: CINECA ISCRA-C Award — MGRES (HP10CKYJ61)
       institution: CINECA — Role&#58; External Supervisor, PI
       year: 2026
       description:
         - HPC resources to pursue further research on Compatible Representations.
-    - title: Best Student Paper Award
-      institution: 21st International Conference on Image Analysis and Processing (ICIAP 2022)
-      year: 2022
-      description:
-        - For "Contrastive Supervised Distillation for Continual Representation Learning" (Oral presentation).
-    - title: Petrosino Prize — Best M.Sc. Thesis
-      institution: CVPL Association
-      year: 2022
-      description:
-        - For "CoReS&#58; Compatible Representation via Stationary."
     - title: CINECA ISCRA-C Award — CoReS (HP10C4TIIM)
       institution: CINECA — Role&#58; External Supervisor, PI
       year: 2022 – 2023
@@ -80,6 +79,20 @@
       year: 2021 – 2022
       description:
         - HPC resources to pursue research on Compatible Representations.
+
+- title: Honors & Awards
+  type: time_table
+  contents:
+    - title: Best Student Paper Award
+      institution: 21st International Conference on Image Analysis and Processing (ICIAP 2022)
+      year: 2022
+      description:
+        - For "Contrastive Supervised Distillation for Continual Representation Learning" (Oral presentation).
+    - title: Petrosino Prize — Best M.Sc. Thesis
+      institution: CVPL Association
+      year: 2022
+      description:
+        - For "CoReS&#58; Compatible Representation via Stationary."
 
 - title: Invited Talks & Tutorials
   type: time_table
@@ -121,6 +134,12 @@
 - title: Academic Service
   type: nested_list
   contents:
+    - title: Editorial Roles
+      items:
+        - "Managing Editor, Computer Vision and Image Understanding (CVIU), Elsevier, 2026–2028"
+    - title: Area Chair
+      items:
+        - "ACM Multimedia 2026"
     - title: Conference Reviewer
       items:
         - "NeurIPS: 2025, 2022"
@@ -138,6 +157,7 @@
         - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
         - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
         - IEEE Transactions on Multimedia (TMM)
+        - IEEE Transactions on Aerospace and Electronic Systems (TAES)
         - MDPI Sensors
 
 - title: Attended Schools
