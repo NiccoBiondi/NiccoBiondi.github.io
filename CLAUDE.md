@@ -48,7 +48,7 @@ Pushing to `main` triggers the GitHub Actions deploy workflow, which builds and 
 | What to change | Where |
 |---|---|
 | Name, bio, profile photo | `_pages/about.md` and `_config.yml` (top section) |
-| CV | `assets/json/resume.json` (preferred) or `_data/cv.yml` (fallback) |
+| CV | `_data/cv.yml` (active source) — `assets/json/resume.json` is inactive; re-enable it by uncommenting `jekyll_get_json` in `_config.yml` |
 | Publications | `_bibliography/papers.bib` |
 | Social links | `_data/socials.yml` |
 | News items | `_news/` (one `.md` file per item) |

@@ -12,6 +12,8 @@
 @string{acmmm = {Proceedings of the ACM International Conference on Multimedia}}
 @string{icdar = {International Conference on Document Analysis and Recognition}}
 @string{iciap = {International Conference on Image Analysis and Processing}}
+@string{wacv = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision}}
+@string{ihmmsec = {Proceedings of the ACM Workshop on Information Hiding and Multimedia Security}}
 
 % -------------------------------------------------------
 % Selected papers — order here controls about page order
@@ -25,6 +27,8 @@
   author={Biondi, N. and Pernici, F. and Ricci, S. and Del Bimbo, A.},
   journal=tpami,
   year={2026},
+  note={Early access},
+  doi={10.1109/TPAMI.2026.3692279},
   html={https://www.computer.org/csdl/journal/tp/5555/01/11515089/2gpcsTtMN3i},
   website={/projects/stationary-tpami/}
 }
@@ -49,6 +53,7 @@
   title={Stationary Representations: Optimally Approximating Compatibility and Implications for Improved Model Replacements},
   author={Biondi, N. and Pernici, F. and Ricci, S. and Del Bimbo, A.},
   booktitle=cvpr,
+  pages={28793--28804},
   year={2024},
   arxiv={2405.02581},
   html={https://dx.doi.org/10.48550/arXiv.2405.02581}
@@ -61,7 +66,10 @@
   title={{CoReS}: Compatible Representations via Stationarity},
   author={Biondi, N. and Pernici, F. and Bruni, M. and Del Bimbo, A.},
   journal=tpami,
-  year={2021},
+  volume={45},
+  number={8},
+  pages={9567--9582},
+  year={2023},
   arxiv={2111.07632},
   doi={10.1109/TPAMI.2023.3259542},
   html={https://doi.org/10.1109/TPAMI.2023.3259542}
@@ -70,6 +78,60 @@
 % -------------------------------------------------------
 % All other papers (publications page groups by year)
 % -------------------------------------------------------
+
+@inproceedings{pobitzer2027painting,
+  abbr={WACV},
+  bibtex_show={true},
+  title={Painting Change Map as Guidance for Generating Painting Processes},
+  author={Pobitzer, M. and Liu, C. and Biondi, N. and Sebe, N.},
+  booktitle=wacv,
+  year={2027}
+}
+
+@inproceedings{singha2026distmoe,
+  abbr={NeurIPS},
+  bibtex_show={true},
+  title={{DISTMOE}: Rehearsal-free Routing in Mixture-of-Experts for Distributed Instruction Tuning},
+  author={Singha, M. and Biondi, N. and Ricci, E. and Roy, S.},
+  booktitle=neurips,
+  year={2026}
+}
+
+@inproceedings{ricci2026spherical,
+  abbr={NeurIPS},
+  bibtex_show={true},
+  title={Spherical Interpolation for Backward-Compatible Multimodal Representations},
+  author={Ricci, S. and Biondi, N. and Pernici, F.},
+  booktitle=neurips,
+  year={2026}
+}
+
+@inproceedings{correnti2026wasp,
+  abbr={NeurIPS},
+  bibtex_show={true},
+  title={{WASP}: Weakly Aligned Spatiotemporal Pairs for Fetal Brain {MRI}-Ultrasound Learning},
+  author={Correnti, F. and Magrini, G. and Mistretta, M. and Biondi, N. and Pala, P. and Ramalli, A. and Fiori, S. and Bagdanov, A. D. and Lenge, M.},
+  booktitle=neurips,
+  year={2026}
+}
+
+@inproceedings{ricci2026shoplifting,
+  abbr={ECCV WS},
+  bibtex_show={true},
+  title={Video Representation and Temporal Modeling for Shoplifting Detection in Retail Environments},
+  author={Ricci, S. and Biondi, N. and Del Bimbo, A.},
+  booktitle={European Conference on Computer Vision Workshops (RetailVision7)},
+  year={2026}
+}
+
+@inproceedings{ciacci2026improving,
+  abbr={IH\&MMSec},
+  bibtex_show={true},
+  title={Improving Generalization in {AI}-Generated Facial Image Detection via Explainable Recovery},
+  author={Ciacci, G. and Spinaci, A. and Biondi, N. and Ciamarra, A. and Caldelli, R.},
+  booktitle=ihmmsec,
+  year={2026}
+}
 
 @inproceedings{magrini2026pepr,
   abbr={CVPR},
@@ -120,7 +182,8 @@
   bibtex_show={true},
   title={{ComiCap}: A VLMs Pipeline for Dense Captioning of Comic Panels},
   author={Vivoli, E. and Biondi, N. and Bertini, M. and Karatzas, D.},
-  booktitle={European Conference on Computer Vision Workshops (AI4WA)},
+  booktitle={European Conference on Computer Vision Workshops (AI4VA)},
+  pages={56--67},
   year={2024},
   arxiv={2409.16159}
 }
@@ -131,7 +194,6 @@
   title={Backward-Compatible Aligned Representations via an Orthogonal Transformation Layer},
   author={Ricci, S. and Biondi, N. and Pernici, F. and Del Bimbo, A.},
   booktitle={European Conference on Computer Vision Workshops (Beyond Euclidean)},
-  pages={28793--28804},
   year={2024},
   arxiv={2408.08793}
 }
@@ -160,11 +222,13 @@
 @inproceedings{barletti2022contrastive,
   abbr={ICIAP},
   bibtex_show={true},
-  award={Best Paper Award (Oral)},
-  award_name={Best Paper},
+  award={Best Student Paper Award (Oral)},
+  award_name={Best Student Paper},
   title={Contrastive Supervised Distillation for Continual Representation Learning},
   author={Barletti, T. and Biondi, N. and Pernici, F. and Bruni, M. and Del Bimbo, A.},
   booktitle=iciap,
+  volume={13231},
+  pages={597--609},
   year={2022},
   arxiv={2205.05476},
   doi={10.1007/978-3-031-06427-2_50},
@@ -177,6 +241,9 @@
   title={{CL$^2$R}: Compatible Lifelong Learning Representations},
   author={Biondi, N. and Pernici, F. and Bruni, M. and Mugnai, D. and Del Bimbo, A.},
   journal=acmtomm,
+  volume={18},
+  number={2s},
+  pages={132:1--132:22},
   year={2022},
   arxiv={2211.09032},
   doi={10.1145/3564786},

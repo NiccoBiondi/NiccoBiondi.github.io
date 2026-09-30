@@ -16,7 +16,6 @@ profile:
     <p>Via Sommarive, 9</p>
     <p>38123 Povo, Trento, Italy</p>
 
-
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -35,4 +34,6 @@ I am an Assistant Professor (RTD-A) at the [Multimedia & Human Understanding Lab
 
 My research focuses on **representation learning** — specifically, designing backward-compatible and stationary representations that enable seamless model updates in large-scale retrieval systems without re-indexing entire databases. This problem sits at the intersection of continual learning, metric learning, and optimization theory.
 
-My work has been published at **NeurIPS**, **CVPR** (Highlight, top 2.8%), and **IEEE TPAMI**. Previously, I was a Post-Doctoral Researcher at the [MICC Lab](https://www.micc.unifi.it/), University of Florence, where I also completed my Ph.D. *(cum laude, 2024)* under the supervision of [Prof. Alberto Del Bimbo](https://www.micc.unifi.it/delbimbo/) and [Federico Pernici](https://www.micc.unifi.it/pernici/).
+My work has been published at **NeurIPS** (4 papers), **CVPR** (Highlight, top 2.8%), **AAAI**, and **IEEE TPAMI** (2 papers). Since 2026 I serve as **Managing Editor** of [_Computer Vision and Image Understanding_ (CVIU)](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding), Elsevier, and as **Area Chair** for CVPR 2027 and ACM Multimedia 2026.
+
+I completed my Ph.D. _(cum laude, 2025)_ at the [MICC Lab](https://www.micc.unifi.it/), University of Florence, under the supervision of [Prof. Alberto Del Bimbo](https://www.micc.unifi.it/delbimbo/) and [Federico Pernici](https://www.micc.unifi.it/pernici/).

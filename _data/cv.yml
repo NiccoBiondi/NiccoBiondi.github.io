@@ -11,6 +11,8 @@
       value: Via Sommarive, 9, 38123 Povo, Trento, Italy
     - name: Email
       value: niccolo.biondi@unitn.it
+    - name: Editorial Role
+      value: Managing Editor, Computer Vision and Image Understanding (CVIU), Elsevier
     - name: Languages
       value: Italian (native), English (fluent)
 
@@ -18,17 +20,17 @@
   type: time_table
   contents:
     - title: Assistant Professor (RTD-A)
-      institution: <a href="https://mhug.disi.unitn.it/">Multimedia & Human Understanding Lab (MHUG)</a>, University of Trento, Trento, IT
+      institution: <a href="https://mhug.disi.unitn.it/">Multimedia & Human Understanding Lab (MHUG)</a>, DISI, University of Trento, Trento, IT
       year: 2025 – now
-    - title: Post-Doctoral Researcher
-      institution: MICC Lab, University of Florence, Florence, IT
-      year: 2024 – 2025
     - title: Ph.D. in Information Engineering (cum laude)
       institution: University of Florence, Florence, IT
-      year: 2021 – 2024
+      year: 2021 – 2025
       description:
         - "Thesis: <em>Learning Backward-Compatible Representations via Stationarity.</em>"
-        - "Supervisors: Prof. Alberto Del Bimbo and Federico Pernici."
+        - "Supervisors: Prof. Alberto Del Bimbo and Prof. Federico Pernici. Defended 11 June 2025."
+    - title: Research Fellow
+      institution: MICC, University of Florence, Florence, IT — European Commission H2020, grant no. 951911 (AI4Media)
+      year: 2021
     - title: M.Sc. in Information Engineering (cum laude)
       institution: University of Florence, Florence, IT
       year: 2021
@@ -39,60 +41,82 @@
       institution: University of Florence, Florence, IT
       year: 2018
       description:
-        - "Thesis: <em>Financial Document Recognition with Neural Network.</em>"
+        - "Thesis: <em>Financial Document Recognition with Neural Networks.</em>"
         - "Focus: computer science, machine learning, physics and mathematics."
 
-- title: Research & Professional Experience
+- title: Industry & Tech-Transfer Projects
   type: time_table
   contents:
-    - title: Project Transfer — Leonardo SPA
-      institution: Face Recognition on Masked Faces using deep learning and transfer learning
+    - title: PIA Project — RECO 3.26 s.r.l.
+      institution: Biometric verification and retail security
+      year: 2026
+      description:
+        - Deep-learning computer vision systems for face anti-spoofing, appearance-based person re-identification, and pose/behavior-based shoplifting detection.
+    - title: Digital Art Interaction — University of Florence
+      institution: Human-centered HCI for cultural heritage and education
+      year: 2025 – 2026
+      description:
+        - AI-powered multimodal system combining conversational agents and body tracking for engaging with digital art (published at HCII 2025).
+    - title: Project Transfer — Leonardo S.p.A.
+      institution: Face recognition on masked faces using deep learning and transfer learning
       year: 2022
-    - title: Research Fellow — AI4Media (Horizon 2020, grant #951911)
-      institution: European Commission / MICC Lab, University of Florence
-      year: 2021
 
 - title: Research Funding
   type: time_table
   contents:
     - title: "MINGLE — Horizon Europe"
       institution: University of Trento (MHUG lab)
-      year: Feb 2027 – now
+      year: 2026 – now
     - title: "ELLIOT — European Lighthouse on Foundation Models"
       institution: University of Trento (MHUG lab)
       year: 2025 – now
     - title: "AI4Media — Horizon 2020, grant no. 951911"
       institution: MICC, University of Florence
       year: 2020 – 2024
-    - title: CINECA ISCRA-C Award — MGRES (HP10CKYJ61)
-      institution: CINECA — Role&#58; External Supervisor, PI
-      year: 2026
+    - title: "CINECA ISCRA-D Award — ReAD (call 10)"
+      institution: "CINECA — Role: PI"
+      year: 2026 – 2028
       description:
-        - HPC resources to pursue further research on Compatible Representations.
-    - title: CINECA ISCRA-C Award — CoReS (HP10C4TIIM)
-      institution: CINECA — Role&#58; External Supervisor, PI
+        - Includes a 30 TB data repository on the Leonardo supercomputer (2026 – 2029).
+    - title: "CINECA ISCRA-C Award — SFMRI (HP10C8VBGH)"
+      institution: "CINECA — Role: PI (External Supervisor)"
+      year: 2026 – 2027
+      description:
+        - 64,000 standard hours on Leonardo Booster for research on foundation models for fetal brain medical imaging.
+    - title: "CINECA ISCRA-C Award — MGRES (HP10CKYJ61)"
+      institution: "CINECA — Role: PI (External Supervisor)"
+      year: 2025 – 2026
+      description:
+        - 96,000 standard hours on Leonardo Booster for research on medical generalized referring expression segmentation.
+    - title: "CINECA ISCRA-C Award — CoReS (HP10C4TIIM)"
+      institution: "CINECA — Role: PI (External Supervisor)"
       year: 2022 – 2023
       description:
-        - HPC resources to pursue further research on Compatible Representations.
-    - title: CINECA ISCRA-C Award — ILCoRe (HP10CRMI87)
+        - HPC resources to pursue further research on compatible representations.
+    - title: "CINECA ISCRA-C Award — ILCoRe (HP10CRMI87)"
       institution: CINECA
       year: 2021 – 2022
       description:
-        - HPC resources to pursue research on Compatible Representations.
+        - HPC resources to pursue research on compatible representations.
 
 - title: Honors & Awards
   type: time_table
   contents:
-    - title: Best Student Paper Award
-      institution: 21st International Conference on Image Analysis and Processing (ICIAP 2022)
-      year: 2022
+    - title: Highlight Paper (top 2.8%)
+      institution: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2024)
+      year: 2024
       description:
-        - For "Contrastive Supervised Distillation for Continual Representation Learning" (Oral presentation).
+        - For "Stationary Representations&#58; Optimally Approximating Compatibility and Implications for Improved Model Replacements."
     - title: Petrosino Prize — Best M.Sc. Thesis
       institution: CVPL Association
       year: 2022
       description:
-        - For "CoReS&#58; Compatible Representation via Stationary."
+        - For "Contrastive Supervised Distillation for Continual Representation Learning."
+    - title: Best Student Paper Award
+      institution: 21st International Conference on Image Analysis and Processing (ICIAP)
+      year: 2022
+      description:
+        - For "Contrastive Supervised Distillation for Continual Representation Learning" (Oral presentation).
 
 - title: Invited Talks & Tutorials
   type: time_table
@@ -103,18 +127,27 @@
     - title: "Model Updates without Re-indexing: A Tutorial on Backward-Compatible Representations"
       institution: 23rd International Conference on Image Analysis and Processing (ICIAP 2025), Rome, IT
       year: 2025
-    - title: Learning Backward Compatible Representations
-      institution: ACM Multimedia 2024 (ACMMM 2024), Melbourne, AU
+      description:
+        - With S. Ricci, F. Pernici and A. Del Bimbo.
+    - title: Learning Backward-Compatible Representations
+      institution: ACM Multimedia 2024 (ACM MM 2024), Melbourne, AU
       year: 2024
+      description:
+        - With S. Ricci, F. Pernici and A. Del Bimbo.
 
 - title: Teaching
   type: time_table
   contents:
-    - title: Image and Video Analysis — B024271 (B339)
-      institution: University of Trento (with Prof. Pietro Pala)
+    - title: Advanced Course on Representation Learning
+      institution: CNR Florence
       year: 2025 – 2026
       description:
-        - Multimodal learning (CLIP, SigLIP), promptable segmentation (SAM, SAM2, SAM3), video understanding (VJEPA).
+        - Foundations of representation learning, self-supervised learning (SimCLR, BYOL, DINO, Barlow Twins) and vision transformers.
+    - title: Image and Video Analysis — B024271 (B339)
+      institution: University of Florence, Multimedia Systems curriculum (with Prof. Pietro Pala)
+      year: 2025 – 2026
+      description:
+        - Multimodal learning (CLIP, SigLIP), promptable segmentation (SAM, SAM2, SAM3) and video foundation models (V-JEPA).
     - title: Computer Vision and Intelligent Media Recognition — B031289 (B241)
       institution: University of Florence (with Prof. Pietro Pala)
       year: 2024 – 2025
@@ -125,11 +158,34 @@
       year: 2023 – 2024
       description:
         - Advanced M.Sc. class on deep learning and computer vision fundamentals.
-    - title: Advanced Course on Representation Learning
-      institution: CNR Firenze
-      year: 2023
+
+- title: M.Sc. Thesis Co-supervision
+  type: time_table
+  contents:
+    - title: Francesco Correnti
+      institution: "<em>Can MRI Teach US? Spatiotemporal Weak Pairing for Fetal Brain Development Analysis</em> — with Prof. Pietro Pala"
+      year: 2025
       description:
-        - Foundations of self-supervised learning (SimCLR, BYOL, DINO, Barlow Twins) and vision transformers.
+        - 110/110 cum laude and honors. Led to WASP (NeurIPS 2026).
+    - title: Martina Tuccio
+      institution: "<em>A Unified Framework for Text-Driven and Context-Aware Medical Image Segmentation</em> — with Prof. Pietro Pala"
+      year: 2025
+    - title: Giulia Manno
+      institution: "<em>Generalized Referring Expression Segmentation in Medical Images</em> — with Prof. Pietro Pala"
+      year: 2025
+    - title: Edoardo Cappelli
+      institution: "<em>Event-Guided Day-to-Night Domain Generalization and Adaptation for Robust Semantic Segmentation</em> — with Prof. Pietro Pala"
+      year: 2025
+    - title: Marco Chisci
+      institution: "<em>Continual Representation Learning for Visual Search</em> — with Prof. Federico Pernici"
+      year: 2024
+      description:
+        - 110/110 cum laude.
+    - title: Tommaso Barletti
+      institution: "<em>Continual Representation Learning for Visual Search</em> — with Prof. Alberto Del Bimbo and Prof. Federico Pernici"
+      year: 2021
+      description:
+        - Led to the ICIAP 2021 Best Student Paper Award.
 
 - title: Academic Service
   type: nested_list
@@ -139,6 +195,7 @@
         - "Managing Editor, Computer Vision and Image Understanding (CVIU), Elsevier, 2026–2028"
     - title: Area Chair
       items:
+        - "CVPR 2027"
         - "ACM Multimedia 2026"
     - title: Conference Reviewer
       items:
@@ -146,12 +203,13 @@
         - "CVPR: 2025, 2024, 2022"
         - "ICCV: 2025"
         - "ECCV: 2024, 2022"
+        - "WACV"
         - "ACM Multimedia: 2025"
         - "ICME: 2024"
         - "ICMR: 2023"
         - "ICPR / ICPRW: 2022"
-        - "ICIAP: 2021"
         - "ICPRAI: 2022"
+        - "ICIAP: 2021"
     - title: Journal Reviewer
       items:
         - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
@@ -160,7 +218,29 @@
         - IEEE Transactions on Aerospace and Electronic Systems (TAES)
         - MDPI Sensors
 
-- title: Attended Schools
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Languages
+      items:
+        - Python (primary)
+        - C / C++
+    - title: Frameworks & Libraries
+      items:
+        - PyTorch
+        - Hugging Face
+        - scikit-learn
+        - NumPy
+        - OpenCV
+    - title: Infrastructure
+      items:
+        - Git / GitHub
+        - Linux
+        - Docker
+        - CUDA
+        - Multi-GPU / multi-node and HPC training
+
+- title: Schools & Continuing Education
   type: time_table
   contents:
     - title: 6th Advanced Course on Data Science & Machine Learning (ACDL 2023)
@@ -173,7 +253,7 @@
       year: 2022
     - title: Advanced School on Parallel Computing — CINECA
       year: 2021
-    - title: "Hackathon AIRtificial Intelligence — Aeronautica Militare ISMA & Leonardo SPA"
+    - title: "Hackathon AIRtificial Intelligence — Aeronautica Militare ISMA & Leonardo S.p.A."
       year: 2019
       description:
-        - Machine learning solutions for aeronautics standard procedures.
+        - Machine learning solutions to improve standard procedures in aeronautics.
