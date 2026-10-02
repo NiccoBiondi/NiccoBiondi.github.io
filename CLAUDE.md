@@ -9,6 +9,7 @@ A personal academic website built on the [al-folio](https://github.com/alshediva
 ## Local development
 
 **Recommended (Docker):**
+
 ```sh
 docker compose pull
 docker compose up
@@ -16,11 +17,13 @@ docker compose up
 ```
 
 **Slim image (~100MB):**
+
 ```sh
 docker compose -f docker-compose-slim.yml up
 ```
 
 **Without Docker:**
+
 ```sh
 bundle install
 pip install jupyter
@@ -29,12 +32,14 @@ bundle exec jekyll serve
 ```
 
 **Build static site:**
+
 ```sh
 bundle exec jekyll build
 # output in _site/
 ```
 
 **Format code (Prettier):**
+
 ```sh
 npx prettier --write .
 ```
@@ -45,19 +50,19 @@ Pushing to `main` triggers the GitHub Actions deploy workflow, which builds and 
 
 ## Key files to edit for personal customization
 
-| What to change | Where |
-|---|---|
-| Name, bio, profile photo | `_pages/about.md` and `_config.yml` (top section) |
-| CV | `_data/cv.yml` (active source) — `assets/json/resume.json` is inactive; re-enable it by uncommenting `jekyll_get_json` in `_config.yml` |
-| Publications | `_bibliography/papers.bib` |
-| Social links | `_data/socials.yml` |
-| News items | `_news/` (one `.md` file per item) |
-| Projects | `_projects/` (one `.md` file per project) |
-| Blog posts | `_posts/YYYY-MM-DD-title.md` |
-| GitHub repos/users shown | `_data/repositories.yml` |
-| Co-author links | `_data/coauthors.yml` |
-| Theme color | `_sass/_themes.scss` (`--global-theme-color`) |
-| Site-wide settings | `_config.yml` |
+| What to change           | Where                                                                                                                                   |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Name, bio, profile photo | `_pages/about.md` and `_config.yml` (top section)                                                                                       |
+| CV                       | `_data/cv.yml` (active source) — `assets/json/resume.json` is inactive; re-enable it by uncommenting `jekyll_get_json` in `_config.yml` |
+| Publications             | `_bibliography/papers.bib`                                                                                                              |
+| Social links             | `_data/socials.yml`                                                                                                                     |
+| News items               | `_news/` (one `.md` file per item)                                                                                                      |
+| Projects                 | `_projects/` (one `.md` file per project)                                                                                               |
+| Blog posts               | `_posts/YYYY-MM-DD-title.md`                                                                                                            |
+| GitHub repos/users shown | `_data/repositories.yml`                                                                                                                |
+| Co-author links          | `_data/coauthors.yml`                                                                                                                   |
+| Theme color              | `_sass/_themes.scss` (`--global-theme-color`)                                                                                           |
+| Site-wide settings       | `_config.yml`                                                                                                                           |
 
 ## Architecture
 
