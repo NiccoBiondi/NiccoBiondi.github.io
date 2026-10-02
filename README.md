@@ -1,11 +1,10 @@
 # TODO to see updates
 
-``` bash
+```bash
 git add -A
 git commit -m " ... "
 git push origin main
 ```
-
 
 # al-folio
 

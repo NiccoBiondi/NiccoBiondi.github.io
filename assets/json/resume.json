@@ -90,10 +90,7 @@
       "studyType": "B.Sc.",
       "startDate": "2015-01-01",
       "endDate": "2018-01-01",
-      "courses": [
-        "Thesis: Financial Document Recognition with Neural Network",
-        "Focus: Computer Science, Machine Learning, Physics and Mathematics"
-      ]
+      "courses": ["Thesis: Financial Document Recognition with Neural Network", "Focus: Computer Science, Machine Learning, Physics and Mathematics"]
     }
   ],
   "awards": [
@@ -147,14 +144,7 @@
       "name": "Programming & Frameworks",
       "level": "Expert",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "PyTorch",
-        "NumPy",
-        "OpenCV",
-        "CUDA",
-        "HPC / SLURM"
-      ]
+      "keywords": ["Python", "PyTorch", "NumPy", "OpenCV", "CUDA", "HPC / SLURM"]
     }
   ],
   "languages": [
@@ -173,13 +163,7 @@
     {
       "name": "Research",
       "icon": "fa-solid fa-magnifying-glass",
-      "keywords": [
-        "Representation Learning",
-        "Backward Compatibility",
-        "Continual Learning",
-        "Computer Vision",
-        "Biomedical AI"
-      ]
+      "keywords": ["Representation Learning", "Backward Compatibility", "Continual Learning", "Computer Vision", "Biomedical AI"]
     }
   ],
   "references": [],

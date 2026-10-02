@@ -329,7 +329,6 @@ _styles: >
   subject to the compatibility constraints of Definition 1.
 </p>
 
-
 <!-- ===================== RESULTS ===================== -->
 <div class="section-title">Results</div>
 

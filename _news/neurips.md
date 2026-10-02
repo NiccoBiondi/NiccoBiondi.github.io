@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "$\lambda$-Orthogonality Regularization for Compatible Representation Learning" has been accepted for publication in *The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS2025)*. You can read the preprint on [arXiv](https://arxiv.org/abs/2509.16664).
+Our paper "$\lambda$-Orthogonality Regularization for Compatible Representation Learning" has been accepted for publication in _The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS2025)_. You can read the preprint on [arXiv](https://arxiv.org/abs/2509.16664).

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "Painting Change Map as guidance for generating painting processes" has been accepted to *WACV 2027* (Round 1).
+Our paper "Painting Change Map as guidance for generating painting processes" has been accepted to _WACV 2027_ (Round 1).
